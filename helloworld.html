@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title>My html page</title>
+        <link rel="stylesheet" type="text/css" href="helloworld.css">
+    </head>
+    <body>
+       <h1>STUDENT REGISTRATION FORM</h1>
+
+       <form action="/action_page.php">
+        
+<p class="name">First name: <input type="text" name="FirstName" maxlength="30"></p>
+<p class="lastname">Last name: <input type="text" name="LastName" maxlength="30"></p>
+
+<p class="date"> Date of Birth:  <select>
+        <option value="day">day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    <select >
+        <option value="month">month</option>
+        <option value="january">january</option>
+        <option value="february">february</option>
+        <option value="march">march</option>
+        <option value="april">april</option>
+        <option value="may">may</option>
+        <option value="june">june</option>
+        <option value="july">july</option>
+    </select>
+    <select >
+        <option value="year">year</option>
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+    </select>
+</p>
+<p class="email">E-mail ID:
+  <input type="email" name="email"></p>
+<p class="mobile">Mobile Number: 
+  <input type="number" name="number"></p>
+<p class="gender">Gender:
+<input type="radio" name="gender" value="gen">
+<input type="radio" name="gender" value="gen"></p>
+<p class="address"> Address: 
+<input type="textarea"></p>
+<p class="country">Country:
+    <input list="countries">
+    <datalist id="countries">
+        <option>Greece</option>
+        <option>United Kingdom</option>
+        <option>United States</option>
+    </datalist></p>
+Hobbies: 
+Drawing<input type="checkbox" name="hobbie" value="drawing"> 
+Driving<input type="checkbox" name="hobbie" value="driving">
+Singing<input type="checkbox" name="hobbie" value="singing"> 
+Reading<input type="checkbox" name="hobbie" value="reading"> 
+Other <input type="textarea" name="other">
+<br> <br>
+
+<p class="qualification">Qualification:<table>
+    <tr>
+        <th>nr. examination</th>
+        <th> board</th>
+        <th>Percentage</th>
+        <th> year of pausing</th>
+    </tr>
+    <tr>
+        <td> 1 classx </td>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+    </tr>
+     <tr>
+        <td> 2 Class XII </td>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+    </tr>
+     <tr>
+        <td> 3 Graduation </td>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+    </tr>
+     <tr>
+        <td> 4 Masters </td>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+        <td><input type="text"> </td>
+    </tr>
+</table></p>
+<p class="apply"> Coursess applied for:
+BCA<input type="radio" name="BCA">
+B.com<input type="radio" name="B.com">
+B.Sc<input type="radio" name="B.Sc">
+B.A<input type="radio" name="B.A">
+    </p>
+
+ 
+<input type="submit" value="Submit">
+<input type="reset"  value="Reset">
+</form>
+
+
+    </body>
+</html>

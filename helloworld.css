@@ -1,0 +1,14 @@
+h1{
+    color:red;
+padding-right: 50px;
+}
+body{
+    padding-left: 300px;
+    color: blue;
+}
+.name{
+    color: red;
+}
+.lastname:hover{
+    color:green;
+}
